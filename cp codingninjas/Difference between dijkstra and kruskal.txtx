@@ -1,0 +1,6 @@
+Dijkstra's algorithm will find the shortest path between two vertices.
+
+Kruskal's algorithm will find the minimum spanning tree connecting all the given vertices.
+
+Basically, Dijkstra's will find a connection between two vertices, while Kruskal's will find a connection 
+between and number of vertices.

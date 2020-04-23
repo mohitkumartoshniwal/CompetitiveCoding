@@ -1,0 +1,14 @@
+MInimum Spanning tree:
+It is not necessary to have a cycle if all vertices are visited of a graph.
+1.  HasPath:     TC: O(edges)or O(vertices^2)
+    if two vertices have a path already then adding one more edge between them may create a cycle,
+    so don't do it and get...
+2. Union Find Algorithm:    TC:O(V) worst case
+    Create a parent array for vertices and mark them all own with their own numeric values.
+
+    Add an edge  to the tree, if the two vertices are of different components i.e they have different parent.
+
+    if above condition is valid, then add the edge to the minimum Spanning tree and update either one of the 
+    two vertices's topmost parent with the other vertices' topmost parent. 
+
+MST is connected,acyclic and has minimum sum of weight of edges
